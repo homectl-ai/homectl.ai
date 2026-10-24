@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>homectl privacy policy</title>
+<style>
+  :root { --bg: #fafaf9; --fg: #1c1917; --muted: #57534e; --link: #0f766e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1c1917; --fg: #f5f5f4; --muted: #a8a29e; --link: #5eead4; } }
+  body { background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; max-width: 40rem; margin: 4rem auto; padding: 0 1rem; }
+  p.lead { color: var(--muted); }
+  a { color: var(--link); }
+  code { font-size: .95em; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<p><a href="/">homectl</a></p>
+<h1>Privacy policy</h1>
+<p class="lead">Last updated 24 October 2026.</p>
+
+<p>homectl is open-source software that you install and run on your own devices: a home server and your
+router. homectl.ai, the project behind it, runs no service that receives, stores or processes your data. We
+can't see your devices, your network, your backups or your accounts.</p>
+
+<h2>What homectl handles, and where it stays</h2>
+<p>homectl keeps a list of the devices on your home network, the rooms you put them in, the people they
+belong to and your internet schedules. All of it is stored on your own home server and router. Nothing is
+sent to homectl.ai.</p>
+
+<h2>Google Drive</h2>
+<p>If you choose to keep backup copies on Google Drive, homectl asks for permission to the
+<code>drive.file</code> scope only. With it, homectl can see and change only the files it created itself (its
+backup copies), not anything else in your Drive. homectl uses this access for one purpose: uploading
+encrypted backup copies, listing them and deleting old ones under the retention you set.</p>
+<ul>
+  <li>Backup copies are encrypted on your server before they are uploaded. Google, and anyone else without your
+  backup key or recovery passphrase, can't read them.</li>
+  <li>The sign-in token Google issues is stored only on your home server. It isn't sent to homectl.ai.</li>
+  <li>homectl doesn't use data from Google APIs for advertising, doesn't sell it, doesn't share it with anyone,
+  and doesn't use it to train AI models. People never read it.</li>
+  <li>homectl's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+  Policy</a>, including the Limited Use requirements.</li>
+</ul>
+<p>You can remove access at any time: <code>hctl backup target rm gdrive</code> on your side, or remove homectl
+at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Copies already in
+your Drive stay there until you delete them.</p>
+
+<h2>Other services</h2>
+<p>Other cloud storage you connect (for example OneDrive) is used the same way: for your encrypted backup
+copies only, with the token kept on your server.</p>
+
+<h2>This website</h2>
+<p>homectl.ai is a static site hosted on GitHub Pages. It sets no cookies and runs no analytics. GitHub may keep
+standard server logs; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's
+privacy statement</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:privacy@homectl.ai">privacy@homectl.ai</a>, or an issue on
+<a href="https://github.com/homectl-ai/homectl">GitHub</a>.</p>
+</body>
+</html>
