@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>homectl terms of service</title>
+<link rel="icon" href="/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/logo-120.png">
+<style>
+  :root { --bg: #fafaf9; --fg: #1c1917; --muted: #57534e; --link: #c2410c; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1c1917; --fg: #f5f5f4; --muted: #a8a29e; --link: #fb923c; } }
+  body { background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, sans-serif; max-width: 40rem; margin: 4rem auto; padding: 0 1rem; }
+  p.lead { color: var(--muted); }
+  a { color: var(--link); }
+  code { font-size: .95em; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+</style>
+</head>
+<p><a href="/">homectl</a></p>
+<h1>Terms of service</h1>
+<p class="lead">Last updated 24 October 2026.</p>
+
+<p>These terms cover your use of homectl: the open-source software (the <code>hctl</code> and <code>hctl-net</code>
+programs and the code at <a href="https://github.com/homectl-ai">github.com/homectl-ai</a>) and this website. By
+installing or using homectl you agree to them. If you don't agree, don't use it.</p>
+
+<h2>The software and its licence</h2>
+<p>homectl is free software under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
+The licence governs what you may do with the code (use, change, share). These terms add nothing to it and take
+nothing away; where they differ, the licence wins.</p>
+
+<h2>No service, no account</h2>
+<p>homectl runs on your own devices. homectl.ai runs no service for it, holds no account for you and receives none
+of your data; see the <a href="/privacy.html">privacy policy</a>. There is nothing to sign up for and nothing to pay.</p>
+
+<h2>Your network, your responsibility</h2>
+<p>homectl changes real things: it can switch internet access off for people and devices, change your router's
+settings and control devices in your home. You decide what it does and you're responsible for that, including:</p>
+<ul>
+  <li>having the right to manage the network and devices you point it at;</li>
+  <li>telling the people in your home what it does, and following the law where you live on monitoring other
+  people's use of the internet;</li>
+  <li>keeping your backup key and recovery passphrase safe. Backups are encrypted with them; without them nobody,
+  including us, can restore your data.</li>
+</ul>
+
+<h2>Google Drive and other services</h2>
+<p>If you connect Google Drive (or another storage service), homectl uses it on your behalf only to store, list
+and delete its own encrypted backup copies. Your use of that service stays under its own terms (for Google Drive,
+<a href="https://policies.google.com/terms">Google's Terms of Service</a>). You can disconnect it at any time with
+<code>hctl backup target rm</code> or at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>No warranty</h2>
+<p>homectl is provided "as is", without warranties or conditions of any kind, as the licence says. It may have
+bugs, it may lose connectivity or data, and a change it makes may need undoing by hand. Test changes, keep
+backups and keep a way to reach your router without homectl.</p>
+
+<h2>Limitation of liability</h2>
+<p>To the extent the law allows, the homectl authors and contributors are not liable for any damages arising from
+your use of homectl or this website, including lost data, lost connectivity or interrupted service, as set out in
+sections 7 and 8 of the licence.</p>
+
+<h2>Changes</h2>
+<p>We may update these terms; the date above says when they last changed, and the history is public in the
+<a href="https://github.com/homectl-ai/homectl.ai">website's repository</a>. Using homectl after a change means you
+accept the new terms.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:privacy@homectl.ai">privacy@homectl.ai</a>, or an issue on
+<a href="https://github.com/homectl-ai/homectl">GitHub</a>.</p>
+</body>
+</html>
