@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>homectl</title>
+  <rect width="512" height="512" rx="112" fill="#0f766e"/>
+  <path d="M256 108 L414 246 H374 V392 Q374 410 356 410 H156 Q138 410 138 392 V246 H98 Z"
+        fill="#ffffff" stroke="#ffffff" stroke-width="20" stroke-linejoin="round"/>
+  <polyline points="190,282 238,324 190,366" fill="none" stroke="#0f766e" stroke-width="30"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="262" y1="366" x2="324" y2="366" stroke="#0f766e" stroke-width="30" stroke-linecap="round"/>
+</svg>
