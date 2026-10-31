@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copy homectl's logo files from the GradZero brand repo (the source of truth) into brand/,
+# Copy homectl's logo files from the gradzero brand repo (the source of truth) into brand/,
 # and make the square icons from them. Run it again whenever the logo changes there:
 #   scripts/copy-brand.sh ../gradzero/brand/logo
 # Needs rsvg-convert (brew install librsvg) and python3 with Pillow.
