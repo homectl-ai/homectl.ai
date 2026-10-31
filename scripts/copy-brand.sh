@@ -7,7 +7,7 @@ set -eu
 src=${1:?usage: $0 <gradzero>/brand/logo}
 dst=$(dirname "$0")/../brand
 for f in lockup-homectl lockup-homectl-dark homectl-icon homectl-icon-dark \
-	gradzero-mark-multi-merged-framed gradzero-mark-multi-merged-framed-dark; do
+	gradzero-mark-multi-merged gradzero-mark-multi-merged-dark; do
 	cp "$src/$f.svg" "$dst/$f.svg"
 done
 cp "$src/homectl-icon.png" "$src/homectl-icon-dark.png" "$dst/"
