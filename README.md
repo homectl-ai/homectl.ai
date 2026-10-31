@@ -8,6 +8,6 @@ The logo comes from the gradzero brand repo (`brand/logo/` there is the source o
 copies, so the site doesn't depend on it. When the logo changes, regenerate it there and run
 `scripts/copy-brand.sh <gradzero>/brand/logo`. Each file has a `-dark` twin, picked by `prefers-color-scheme`:
 `lockup-homectl` (the wordmark, header), `homectl-icon` (the ring, the icon; also `favicon.svg`/`favicon-dark.svg`)
-and `gradzero-mark-named` (the mark with its name, the "by gradzero" footer). The script also makes the square, opaque icons (the OS rounds them):
+and `gradzero-mark-multi-merged-framed` (the boxed mark, the "by gradzero" footer). The script also makes the square, opaque icons (the OS rounds them):
 `apple-touch-icon.png`, `favicon.ico`, `logo-120.png` (for app consoles such as Google's consent screen) and
 `logo-512.png`.
